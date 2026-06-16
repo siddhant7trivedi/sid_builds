@@ -1,117 +1,75 @@
-🚀 sid-builds
+# 🚀 sid-builds
 
-A hands-on portfolio of AI products, GenAI experiments, and software builds.
+### AI Products • GenAI Experiments • End-to-End Prototypes
 
-Every project starts with a real problem, moves through product thinking and prompt design, and ends as a working prototype shipped end-to-end.
+> **Most PMs write specs. I ship products.**
 
-⸻
+Every project here started as a real problem.
 
-👋 About
+I use AI tools to move from **idea → prototype → working product** through prompt design, product thinking, rapid iteration, and deployment.
 
-Welcome to sid-builds — my personal portfolio of AI-powered applications, product experiments, and software projects.
+**The goal isn't to learn to code. It's to learn to build and there's a difference.**
 
-This repository serves as a collection of projects where I explore:
+---
 
-* AI Product Development
-* Prompt Engineering
-* Full-Stack Development
-* Human-Centered Design
-* Rapid Prototyping
+## 🧭 How I Work
 
-My approach is simple:
+- Start with a real problem, not a tutorial
+- Use AI as my engineering layer - prompts, prototypes, and iteration
+- Ship something working before writing a full spec
+- Iterate in public - warts and all
 
-Learn by building. Ship often. Improve continuously.
+---
 
-⸻
+## 🧠 Featured Builds
 
-🧠 Product Experiments
+| Project | Problem | What it Does | 
+|----------|----------|-------------|
+| 🔍 **[Feedback Lens](./feedback-lens/)** | Customer feedback is difficult to analyze at scale. | Converts hundreds of feedback responses into themes, sentiment insights, and actionable takeaways in seconds. |
+| 📄 **[PRD Generator](./prd-generator/)** | Product ideas often stall at the blank page stage. | Generates structured Product Requirement Documents from a simple product description. |
+| ✅ **[To-Do App](./todo_app/)** | Learning happens fastest through shipping. | A lightweight task management app built to reinforce core frontend fundamentals. |
 
-Full-scope AI products built around real-world use cases.
+---
 
-Project	Problem Solved	Stack	Status
-Feedback Lens	Turns messy customer feedback into actionable insights with themes, sentiment analysis, and standout quotes	Next.js · TypeScript · Claude AI	🟢 Active
-PRD Generator	Converts rough product ideas into structured Product Requirement Documents (PRDs)	React · Vite · Claude AI	🟢 Active
-
-⸻
-
-🛠 Starter Builds
-
-Smaller projects focused on learning core concepts through implementation.
-
-Project	What it does	Stack	Status
-To-Do App	Create, complete, and manage tasks with a responsive client-side experience	Vanilla JavaScript · HTML · CSS	✅ Complete
-
-⸻
-
-🎯 Why This Repo Exists
-
-Building products is the fastest way I’ve found to learn.
-
-Rather than following tutorials endlessly, I prefer to:
-
-* Identify a problem worth solving
-* Design a simple solution
-* Build a working prototype
-* Gather feedback
-* Iterate and improve
-
-Each project here represents a step in that journey.
-
-⸻
-
-📚 What I’m Exploring
-
-Current areas of interest include:
-
-* Generative AI Applications
-* Product Thinking
-* AI-Assisted Workflows
-* Prompt Engineering
-* Agentic Systems
-* Retrieval-Augmented Generation (RAG)
-* Developer Tools
-* Productivity Software
-
-⸻
-
-🚀 Getting Started
+## 🚀 Getting Started
 
 Clone the repository:
 
+```bash
 git clone https://github.com/siddhant7trivedi/sid_builds.git
+```
 
 Navigate to any project:
 
+```bash
 cd sid_builds/feedback-lens
+```
 
-Follow the project’s README for setup instructions, dependencies, and usage.
+Follow the project's README for setup instructions, dependencies, and usage.
 
 Each project is self-contained and includes its own documentation.
 
-⸻
+---
 
-🔮 What’s Next
+## 🔮 What's Next
 
-Upcoming experiments may include:
+Upcoming experiments:
 
-* AI Workflow Automation Tools
-* Multi-Agent Applications
-* RAG-Based Knowledge Systems
-* Prompt Evaluation Frameworks
-* Productivity-Focused AI Products
-* Internal Tools for Product Teams
+- AI Workflow Automation Tools
+- Multi-Agent Applications
+- RAG-Based Knowledge Systems
+- Prompt Evaluation Frameworks
+- Productivity-Focused AI Products
+- Internal Tools for Product Teams
 
-⸻
+---
 
-🤝 Connect
+## 🤝 Connect
 
-I’m building in public and sharing the process along the way.
+Curious about the person behind the builds?
 
-* LinkedIn: https://www.linkedin.com/in/siddhant7trivedi/
-* GitHub: https://github.com/siddhant7trivedi
+💼 LinkedIn → https://www.linkedin.com/in/siddhant7trivedi/
 
-Feel free to explore the projects, open an issue, or connect to discuss AI, product development, and experimentation.
+---
 
-⸻
-
-⭐ If you find something interesting, consider starring the repository.
+⭐ **If you find something interesting, consider starring the repository.**
