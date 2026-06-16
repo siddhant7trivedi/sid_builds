@@ -1,37 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-
-type FeedbackTheme = {
-  name: string;
-  count: number;
-  quotes: string[];
-};
-
-type AnalysisResult = {
-  sentiment: "positive" | "mixed" | "negative";
-  summary: string;
-  themes: FeedbackTheme[];
-  standout_quotes: string[];
-};
-
-const SENTIMENT = {
-  positive: {
-    label: "Positive",
-    cls: "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300",
-    dot: "bg-emerald-500",
-  },
-  mixed: {
-    label: "Mixed",
-    cls: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300",
-    dot: "bg-amber-500",
-  },
-  negative: {
-    label: "Negative",
-    cls: "bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300",
-    dot: "bg-red-500",
-  },
-};
+import { AnalysisResult, SENTIMENT } from "@/types/feedback";
+import { SunIcon, MoonIcon, ChevronIcon } from "@/components/icons";
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -167,9 +138,7 @@ export default function Home() {
                 <span
                   className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold ${SENTIMENT[result.sentiment].cls}`}
                 >
-                  <span
-                    className={`w-1.5 h-1.5 rounded-full ${SENTIMENT[result.sentiment].dot}`}
-                  />
+                  <span className={`w-1.5 h-1.5 rounded-full ${SENTIMENT[result.sentiment].dot}`} />
                   {SENTIMENT[result.sentiment].label}
                 </span>
                 <span className="text-xs text-zinc-400 dark:text-zinc-500">
@@ -193,9 +162,7 @@ export default function Home() {
                     className="rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 overflow-hidden"
                   >
                     <button
-                      onClick={() =>
-                        setExpandedTheme(expandedTheme === i ? null : i)
-                      }
+                      onClick={() => setExpandedTheme(expandedTheme === i ? null : i)}
                       className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-colors"
                     >
                       <div className="flex items-center gap-3">
@@ -254,61 +221,5 @@ export default function Home() {
         )}
       </div>
     </div>
-  );
-}
-
-function SunIcon() {
-  return (
-    <svg
-      width="18"
-      height="18"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8z"
-      />
-    </svg>
-  );
-}
-
-function MoonIcon() {
-  return (
-    <svg
-      width="18"
-      height="18"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M20.354 15.354A9 9 0 0 1 8.646 3.646 9.003 9.003 0 0 0 12 21a9.003 9.003 0 0 0 8.354-5.646z"
-      />
-    </svg>
-  );
-}
-
-function ChevronIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      className={`w-4 h-4 ${className}`}
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        d="M19 9l-7 7-7-7"
-      />
-    </svg>
   );
 }
