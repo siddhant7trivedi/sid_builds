@@ -1,48 +1,117 @@
-# sid-builds
+🚀 sid-builds
 
-Hands-on portfolio of AI tools and GenAI product experiments — designed, prompted, and shipped end-to-end.
+A hands-on portfolio of AI products, GenAI experiments, and software builds.
 
----
+Every project starts with a real problem, moves through product thinking and prompt design, and ends as a working prototype shipped end-to-end.
 
-## Projects
+⸻
 
-### Product Experiments
-*Full-scope prototypes built around a real user problem.*
+👋 About
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [Feedback Lens](./feedback-lens/) | Paste customer feedback → get themes, sentiment, and standout quotes | Next.js · TypeScript · Claude AI |
-| [PRD Generator](./prd-generator/) | Describe a product idea → get a structured PRD | React · Vite · Claude AI |
+Welcome to sid-builds — my personal portfolio of AI-powered applications, product experiments, and software projects.
 
----
+This repository serves as a collection of projects where I explore:
 
-### Starter Builds
-*Focused, single-purpose apps built to learn by doing.*
+* AI Product Development
+* Prompt Engineering
+* Full-Stack Development
+* Human-Centered Design
+* Rapid Prototyping
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [To-Do App](./todo_app/) | Add, complete, and delete tasks — no page reloads | Vanilla JS · HTML |
+My approach is simple:
 
----
+Learn by building. Ship often. Improve continuously.
 
-## Getting Started
+⸻
 
-```bash
-# Clone the repo
+🧠 Product Experiments
+
+Full-scope AI products built around real-world use cases.
+
+Project	Problem Solved	Stack	Status
+Feedback Lens	Turns messy customer feedback into actionable insights with themes, sentiment analysis, and standout quotes	Next.js · TypeScript · Claude AI	🟢 Active
+PRD Generator	Converts rough product ideas into structured Product Requirement Documents (PRDs)	React · Vite · Claude AI	🟢 Active
+
+⸻
+
+🛠 Starter Builds
+
+Smaller projects focused on learning core concepts through implementation.
+
+Project	What it does	Stack	Status
+To-Do App	Create, complete, and manage tasks with a responsive client-side experience	Vanilla JavaScript · HTML · CSS	✅ Complete
+
+⸻
+
+🎯 Why This Repo Exists
+
+Building products is the fastest way I’ve found to learn.
+
+Rather than following tutorials endlessly, I prefer to:
+
+* Identify a problem worth solving
+* Design a simple solution
+* Build a working prototype
+* Gather feedback
+* Iterate and improve
+
+Each project here represents a step in that journey.
+
+⸻
+
+📚 What I’m Exploring
+
+Current areas of interest include:
+
+* Generative AI Applications
+* Product Thinking
+* AI-Assisted Workflows
+* Prompt Engineering
+* Agentic Systems
+* Retrieval-Augmented Generation (RAG)
+* Developer Tools
+* Productivity Software
+
+⸻
+
+🚀 Getting Started
+
+Clone the repository:
+
 git clone https://github.com/siddhant7trivedi/sid_builds.git
 
-# Navigate to any project
+Navigate to any project:
+
 cd sid_builds/feedback-lens
 
-# Follow the project README for setup
-```
+Follow the project’s README for setup instructions, dependencies, and usage.
 
-Each project has its own `README.md` with setup instructions and dependencies.
+Each project is self-contained and includes its own documentation.
 
----
+⸻
 
-## Connect
+🔮 What’s Next
 
-Building in public — reach out or follow along.
+Upcoming experiments may include:
 
-[linkedin.com/in/siddhant7trivedi](https://www.linkedin.com/in/siddhant7trivedi/)
+* AI Workflow Automation Tools
+* Multi-Agent Applications
+* RAG-Based Knowledge Systems
+* Prompt Evaluation Frameworks
+* Productivity-Focused AI Products
+* Internal Tools for Product Teams
+
+⸻
+
+🤝 Connect
+
+I’m building in public and sharing the process along the way.
+
+* LinkedIn: https://www.linkedin.com/in/siddhant7trivedi/
+* GitHub: https://github.com/siddhant7trivedi
+
+Feel free to explore the projects, open an issue, or connect to discuss AI, product development, and experimentation.
+
+⸻
+
+⭐ If you find something interesting, consider starring the repository.
