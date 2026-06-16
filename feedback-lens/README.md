@@ -12,15 +12,15 @@ Built for product managers who don't have time to read 200 NPS responses manuall
 
 **Empty state — paste any raw feedback to get started**
 
-![FeedbackLens empty state](public/screenshots/empty-state.png)
+![FeedbackLens empty state](public/screenshots/FL-1.png)
 
 **Analyzing — results return in under 10 seconds**
 
-![FeedbackLens loading state](public/screenshots/loading.png)
+![FeedbackLens loading state](public/screenshots/FL-2.png)
 
 **Results — sentiment, themes, stakeholder summary, and standout quotes**
 
-![FeedbackLens results](public/screenshots/results.png)
+![FeedbackLens results](public/screenshots/FL-3.png)
 
 ---
 
