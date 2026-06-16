@@ -1,20 +1,40 @@
 # FeedbackLens
 
-Paste a batch of raw customer feedback — NPS responses, G2 reviews, Capterra comments — and get back:
+> Turn a wall of raw user feedback into a PM-ready briefing in seconds.
 
-- **Overall sentiment** (positive / mixed / negative)
-- **Top 5 recurring themes** with supporting quotes (expandable)
-- **A stakeholder-ready summary** you can drop straight into an update
-- **Standout quotes** worth sharing with the team
+Built for product managers who don't have time to read 200 NPS responses manually. Paste in any raw feedback — reviews, survey responses, support tickets — and get back a structured analysis you can act on immediately.
 
-Built for product managers who need signal from feedback fast. No charts, no dashboards, no accounts.
+![Next.js](https://img.shields.io/badge/Next.js-15-black) ![Claude](https://img.shields.io/badge/Claude-Sonnet%204.6-orange) ![License](https://img.shields.io/badge/license-MIT-blue)
+
+---
+
+## What it does
+
+Paste raw feedback → hit Analyze → get back in under 10 seconds:
+
+- **Sentiment** — positive, mixed, or negative with a one-line explanation
+- **Top themes** — recurring patterns ranked by frequency, each expandable with supporting detail
+- **Stakeholder summary** — 3–4 sentences you can drop straight into a Slack update or exec briefing
+- **Standout quotes** — the 3 responses most worth sharing with your team
+
+No charts. No dashboards. No accounts. Just signal.
+
+---
+
+## Why I built this
+
+Qualitative feedback is the most underused asset in most PM workflows. It piles up in Notion docs and spreadsheets while teams make decisions without it — not because they don't care, but because synthesizing it manually takes hours.
+
+FeedbackLens is a scratchpad tool that removes that friction. It's designed to be used before a planning meeting, not as a platform you maintain.
+
+---
 
 ## Setup
 
-**1. Clone the repo**
+**1. Clone and install**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/siddhant7trivedi/sid_builds
 cd feedback-lens
 npm install
 ```
@@ -25,9 +45,13 @@ npm install
 cp .env.local.example .env.local
 ```
 
-Open `.env.local` and replace `sk-ant-...` with your key from [console.anthropic.com](https://console.anthropic.com).
+Open `.env.local` and add your key from [console.anthropic.com](https://console.anthropic.com):
 
-**3. Run it**
+```
+ANTHROPIC_API_KEY=sk-ant-your-key-here
+```
+
+**3. Run**
 
 ```bash
 npm run dev
@@ -35,18 +59,34 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+---
+
 ## Usage
 
-Paste any raw feedback text into the box — one review per paragraph, numbered lists, mixed formats, whatever you have. Hit **Analyze feedback** (or ⌘+Enter) and results appear in seconds.
+Paste any raw feedback into the box — one review per paragraph, numbered lists, mixed formats. Hit **Analyze feedback** or `⌘ + Enter`.
 
-Click any theme to expand it and see the quotes that back it up.
+Click any theme row to expand it and see the reasoning behind it.
+
+A batch of 20 responses typically returns results in 5–8 seconds.
+
+---
 
 ## Cost
 
-Each analysis call uses the Claude API (Anthropic). A typical batch of 20–50 reviews costs around **$0.01–0.03**. You pay for your own usage via your API key — the tool itself is free.
+Each analysis uses the Claude API via your own key. A typical batch of 20–50 responses costs **$0.01–0.03**. The tool itself is free.
+
+---
 
 ## Stack
 
-- [Next.js](https://nextjs.org) (App Router)
+- [Next.js 15](https://nextjs.org) — App Router
 - [Tailwind CSS v4](https://tailwindcss.com)
-- [Anthropic SDK](https://github.com/anthropics/anthropic-sdk-typescript) → Claude claude-sonnet-4-6
+- [Anthropic SDK](https://github.com/anthropics/anthropic-sdk-typescript) — Claude Sonnet 4.6
+
+---
+
+## Part of sid_builds
+
+This is one project in a hands-on portfolio of AI product tools built to learn by doing — not just studying.
+
+[View the full repo →](https://github.com/siddhant7trivedi/sid_builds)
