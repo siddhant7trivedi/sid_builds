@@ -1,78 +1,56 @@
-# sid-builds 🛠️
+# sid-builds
 
-**Hands-on portfolio of AI agents and GenAI product experiments.**
-
-AI Agents · GenAI Tools · Product Experiments · MCP · Agentic Workflows
----
-
-## 🤔 Why This Repo?
-
-- 🧠 **PM-built, not just PM-managed** — every project here is something I designed, prompted, and shipped end-to-end.
-- 🔥 **Covers the modern GenAI stack** — AI Agents, Agentic Workflows, MCP integrations, and interactive product prototypes.
-- 📈 **Grows with complexity** — from simple single-agent apps to multi-agent systems and full product MVPs.
-- 🛠️ **Product-first lens** — each project is framed around a real user problem, not just a tech demo.
+Hands-on portfolio of AI tools and GenAI product experiments — designed, prompted, and shipped end-to-end.
 
 ---
 
-## 📂 Project Index
+## Projects
 
-### 🌱 Starter Agents
-*Simple, single-purpose agents. One problem, one agent, one outcome.*
+### Product Experiments
+*Full-scope prototypes built around a real user problem.*
 
-| Project | What it does | Stack | Status |
-|---------|-------------|-------|--------|
-| [✅ To-Do App](./02_claude_artifacts/todo_app/) | Task manager — add, complete, delete. No page reload. | Claude Artifacts · JS | ✅ Done |
-
----
-
-### 🚀 Product Experiments
-*Bigger builds with a product scope — problem, solution, prototype.*
-
-| Project | What it does | Stack | Status |
-|---------|-------------|-------|--------|
-| *Coming soon* | — | — | 🔜 |
+| Project | What it does | Stack |
+|---------|-------------|-------|
+| [Feedback Lens](./feedback-lens/) | Paste customer feedback, get themes, sentiment, and standout quotes | Next.js · TypeScript · Claude AI |
+| [PRD Generator](./prd-generator/) | Describe a product idea, get a structured PRD | React · Vite · Claude AI |
 
 ---
 
-### 🧰 PM Tools
-*Agents that automate Product Manager workflows.*
+### Starter Builds
+*Focused, single-purpose apps.*
 
-| Project | What it does | Stack | Status |
-|---------|-------------|-------|--------|
-| *Coming soon* | — | — | 🔜 |
-
----
-
-### ♾️ MCP Agents
-*Agents connected to external tools and services via Model Context Protocol.*
-
-| Project | What it does | Stack | Status |
-|---------|-------------|-------|--------|
-| *Coming soon* | — | — | 🔜 |
+| Project | What it does | Stack |
+|---------|-------------|-------|
+| [To-Do App](./todo_app/) | Add, complete, and delete tasks. No page reloads. | Vanilla JS · HTML |
 
 ---
 
-## 🚀 Getting Started
+### PM Skills
+*A reference library of PM frameworks and templates, built as Claude Code skills.*
+
+| Resource | What it covers |
+|----------|----------------|
+| [PM Skills](./pm-skills/) | Customer research, roadmaps, PRDs, metrics, experiments, launches, and more |
+
+---
+
+## Getting Started
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/sid-builds.git
+# Clone the repo
+git clone https://github.com/siddhant7trivedi/sid_builds.git
 
-# 2. Navigate to any project
-cd sid-builds/01_starter_agents/project-name
+# Navigate to any project
+cd sid_builds/feedback-lens
 
-# 3. Follow the project README
+# Follow the project README for setup
 ```
 
-Each project folder has its own `README.md` with setup instructions, dependencies, and what I learned building it.
+Each project has its own `README.md` with setup instructions and dependencies.
 
 ---
 
-## 📬 Connect
+## Connect
 
-Building in public. Reach out or follow along.
-https://www.linkedin.com/in/siddhant7trivedi/
-
----
-
-*Apache-2.0 — fork it, learn from it, build on it.*
+Building in public — reach out or follow along.
+[linkedin.com/in/siddhant7trivedi](https://www.linkedin.com/in/siddhant7trivedi/)
