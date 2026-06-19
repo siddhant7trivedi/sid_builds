@@ -40,32 +40,6 @@ Job Description URL ──┘
 
 ---
 
-## Screenshots
-
-**Home — paste or URL input, model selector**
-
-![Home screen with model selector](assets/RTJ-1.png)
-
-![Home screen with URL input mode](assets/RTJ-2.png)
-
-**Analysis in progress**
-
-![Live analysis status log](assets/RTJ-3.png)
-
-**Results — fit score, overall assessment, and score breakdown**
-
-![Score ring and breakdown bars](assets/RTJ-4.png)
-
-**Results tabs — Strengths, Improvements, ATS Tips**
-
-![Strengths tab with matched keywords](assets/RTJ-5.png)
-
-![Improvements tab with numbered suggestions](assets/RTJ-6.png)
-
-![ATS Tips tab](assets/RTJ-7.png)
-
----
-
 ## Tech Stack
 
 | Layer | Tech |
@@ -114,6 +88,32 @@ streamlit run app.py
 ```
 
 > Ollama must be running locally on `http://localhost:11434` before launching the app.
+
+---
+
+## Screenshots
+
+**Home — paste or URL input, model selector**
+
+![Home screen with model selector](assets/RTJ-1.png)
+
+![Home screen with URL input mode](assets/RTJ-2.png)
+
+**Analysis in progress**
+
+![Live analysis status log](assets/RTJ-3.png)
+
+**Results — fit score, overall assessment, and score breakdown**
+
+![Score ring and breakdown bars](assets/RTJ-4.png)
+
+**Results tabs — Strengths, Improvements, ATS Tips**
+
+![Strengths tab with matched keywords](assets/RTJ-5.png)
+
+![Improvements tab with numbered suggestions](assets/RTJ-6.png)
+
+![ATS Tips tab](assets/RTJ-7.png)
 
 ---
 
