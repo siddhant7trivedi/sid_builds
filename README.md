@@ -23,11 +23,19 @@ I use AI tools to move from **idea → prototype → working product** through p
 
 ## 🧠 Featured Builds
 
-| Project | Problem | What it Does | 
+### 🤖 Single AI Agents
+
+| Project | Problem | What it Does |
 |----------|----------|-------------|
-| 🔍 **[Feedback Lens](./feedback-lens/)** | Customer feedback is difficult to analyze at scale. | Converts hundreds of feedback responses into themes, sentiment insights, and actionable takeaways in seconds. |
-| 📄 **[PRD Generator](./prd-generator/)** | Product ideas often stall at the blank page stage. | Generates structured Product Requirement Documents from a simple product description. |
-| ✅ **[To-Do App](./todo_app/)** | Learning happens fastest through shipping. | A lightweight task management app built to reinforce core frontend fundamentals. |
+| 🔍 **[Feedback Lens](./single_ai_agents/feedback-lens/)** | Customer feedback is difficult to analyze at scale. | Converts hundreds of feedback responses into themes, sentiment insights, and actionable takeaways in seconds. |
+| 🎯 **[Resume-to-Job Match Analyzer](./single_ai_agents/resume_to_job%20matcher/)** | Candidates don't know how well they match a role until it's too late. | Scores your resume against any job description with an ATS-style breakdown — runs fully locally via Ollama. |
+| ✅ **[To-Do App](./single_ai_agents/todo_app/)** | Learning happens fastest through shipping. | A lightweight task management app built to reinforce core frontend fundamentals. |
+
+### 🧑‍💼 Product Manager Agents
+
+| Project | Problem | What it Does |
+|----------|----------|-------------|
+| 📄 **[PRD Generator](./product_mgr_agents/prd_generator/)** | Product ideas often stall at the blank page stage. | Generates structured Product Requirement Documents from a simple product description — runs locally via Ollama. |
 
 ---
 
@@ -42,7 +50,11 @@ git clone https://github.com/siddhant7trivedi/sid_builds.git
 Navigate to any project:
 
 ```bash
-cd sid_builds/feedback-lens
+# Single AI agent projects
+cd sid_builds/single_ai_agents/feedback-lens
+
+# Product manager agent projects
+cd sid_builds/product_mgr_agents/prd_generator
 ```
 
 Follow the project's README for setup instructions, dependencies, and usage.
