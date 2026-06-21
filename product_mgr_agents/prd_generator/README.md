@@ -75,12 +75,29 @@ Open `http://localhost:8501` in your browser.
 
 ## Usage
 
-1. Describe your product or feature idea in the text box (rough is fine)
-2. Click **Generate PRD**
+### Structuring Your Idea
+
+For the best output, use [`idea_template.md`](idea_template.md) to write your idea before pasting it into the tool. It prompts you to answer six questions:
+
+1. What is the product or feature?
+2. What problem does it solve?
+3. Who are the users?
+4. What does success look like?
+5. Constraints or non-negotiables (optional)
+6. What's explicitly out of scope (optional)
+
+You don't need to fill every field — but the more context you give, the less the AI has to assume.
+
+### Generating the PRD
+
+1. Fill out `idea_template.md` (or write a rough idea directly)
+2. Paste your idea into the text box and click **Generate PRD**
 3. Wait ~30–60 seconds for Llama 3.1 to generate the full document
 4. Download as Markdown or plain text
 
-**Tip:** More context in your idea = better output. Include target users, the core problem, and any constraints you already know.
+### PRD Output Format
+
+Every generated PRD follows the structure in [`prd_template.md`](prd_template.md). Use it as a reference when reviewing output or writing a PRD manually.
 
 ---
 
@@ -88,9 +105,11 @@ Open `http://localhost:8501` in your browser.
 
 ```
 prd_generator/
-├── prd_generator.py   # App — UI + Ollama integration + prompt
-├── requirements.txt   # Python dependencies
-└── README.md          # This file
+├── prd_generator.py    # App — UI + Ollama integration + prompt
+├── requirements.txt    # Python dependencies
+├── idea_template.md    # Template for structuring your product idea before generating
+├── prd_template.md     # Reference structure for every generated PRD
+└── README.md           # This file
 ```
 
 ---
