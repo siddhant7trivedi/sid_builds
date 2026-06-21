@@ -118,14 +118,4 @@ prd_generator/
 
 This project is part of my AI agent portfolio at [`siddhant7trivedi/sid_builds`](https://github.com/siddhant7trivedi/sid_builds) — a collection of production-grade AI tools built for real PM and engineering workflows.
 
-Other tools in the portfolio:
-- Requirements Gap Analyzer
-- Acceptance Criteria Generator
-- Meeting Intelligence Agent
-- Resume-to-Job Match Analyzer
-
 ---
-
-## License
-
-MIT
