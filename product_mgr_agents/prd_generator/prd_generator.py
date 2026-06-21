@@ -150,8 +150,40 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("# 📋 PRD Generator")
-st.markdown("Transform a raw product idea into an implementation-ready PRD. Powered by **Llama 3.1** running locally via Ollama.")
+col_title, col_info = st.columns([11, 1])
+with col_title:
+    st.markdown("# 📋 PRD Generator")
+    st.markdown("Transform a raw product idea into an implementation-ready PRD. Powered by **Llama 3.1** running locally via Ollama.")
+with col_info:
+    st.markdown("<div style='margin-top:1.3rem'></div>", unsafe_allow_html=True)
+    with st.popover("ℹ", use_container_width=True):
+        st.markdown("""**Setup & Usage**
+
+**Requirements**
+```bash
+pip install streamlit requests
+```
+
+**Run the app**
+```bash
+# 1. Start Ollama
+ollama serve
+
+# 2. Pull the model (first time only)
+ollama pull llama3.1
+
+# 3. Launch the app
+streamlit run prd_generator.py
+```
+
+**What gets generated**
+- Problem Statement · Objectives · Target Users · User Personas
+- User Stories · Functional Requirements · Non-Functional Requirements
+- Acceptance Criteria · Assumptions & Dependencies · Risks & Mitigations
+- Success Metrics · MVP Scope
+
+All output is downloadable as Markdown or plain text.
+""")
 
 st.divider()
 
@@ -243,31 +275,3 @@ if generate_clicked:
 
             st.caption(f"Generated on {datetime.now().strftime('%B %d, %Y at %H:%M')} · Model: {MODEL}")
 
-st.divider()
-with st.expander("Setup & Usage"):
-    st.markdown("""
-**Requirements**
-```bash
-pip install streamlit requests
-```
-
-**Run the app**
-```bash
-# 1. Start Ollama
-ollama serve
-
-# 2. Pull the model (first time only)
-ollama pull llama3.1
-
-# 3. Launch the app
-streamlit run prd_generator.py
-```
-
-**What gets generated**
-- Problem Statement · Objectives · Target Users · User Personas
-- User Stories · Functional Requirements · Non-Functional Requirements
-- Acceptance Criteria · Assumptions & Dependencies · Risks & Mitigations
-- Success Metrics · MVP Scope
-
-All output is downloadable as Markdown or plain text.
-""")
