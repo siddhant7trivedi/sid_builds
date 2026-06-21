@@ -41,12 +41,6 @@ This agent solves it by taking one structured input and returning a complete, op
 
 ---
 
-## 🖥️ Demo
-
-> Add a screenshot after first run: `assets/demo.png`
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer | Tool |
