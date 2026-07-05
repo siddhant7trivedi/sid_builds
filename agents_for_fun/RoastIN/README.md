@@ -18,18 +18,6 @@ This is part of my **Agents for Fun** collection — lower-stakes builds I use t
 2. Agent generates a **roast** — short, sharp, specific callouts on why the post is cringe: clichés used, humble-brag detected, hook that doesn't hook, buzzword count.
 3. Roast renders in the UI. No rewrite, no fix, no corporate-safe version — just the takedown.
 
-
----
-
-## How It Works (Build Instructions for Claude Code)
-
-- **Single API call, single output.** One prompt, one response: the roast. No dual-output parsing needed.
-- **Roast tone:** witty and specific, never generic ("this is bad" is not acceptable — it must name the exact cliché/pattern it found, e.g., "opens with 'I'm humbled to announce' — dead giveaway hook, delete it").
-- **No fabrication:** if the input post has no real content (e.g., just emojis), the agent should say so rather than inventing a roast.
-- **Input handling:** plain text area, no file upload needed for v1.
-- **Output UI:** single output panel, no side-by-side layout needed since there's no rewrite to compare against.
-- **Keep it fast:** this is a "fun" agent — response time matters more here than in the PM toolkit agents. Avoid unnecessary chained calls.
-
 ---
 
 ## Tech Stack
