@@ -23,19 +23,19 @@ I use AI tools to move from **idea → prototype → working product** through p
 
 ## 🧠 Featured Builds
 
-🧑‍💼 Agents for Product Management
+### 🧑‍💼 [Agents for Product Management](https://github.com/siddhant7trivedi/sid_builds/tree/main/agents_for_prod_mgmt)
 
 A growing collection of AI agents built to help Product Managers work smarter, faster, and with greater confidence. Each agent solves a specific PM challenge, forming an AI toolkit that augments every stage of the product lifecycle and enables better, faster decisions.
 
-⸻
+---
 
-🤝 Agent Teams
+### 🤝 [Agent Teams](https://github.com/siddhant7trivedi/sid_builds/tree/main/agent_teams)
 
-Multi-agent systems where specialized AI agents collaborate, delegate, review, and refine each other’s work to solve complex problems. These projects demonstrate how orchestrated AI workflows produce more reliable, scalable, and higher-quality outcomes than a single agent working alone.
+Multi-agent systems where specialized AI agents collaborate, delegate, review, and refine each other's work to solve complex problems. These projects demonstrate how orchestrated AI workflows produce more reliable, scalable, and higher-quality outcomes than a single agent working alone.
 
-⸻
+---
 
-🎲 Agents for Fun
+### 🎲 [Agents for Fun](https://github.com/siddhant7trivedi/sid_builds/tree/main/agents_for_fun)
 
 Not every AI project has to solve a business problem. This collection explores the creative side of AI through fun, witty, and experimental agents that showcase novel interactions, imaginative ideas, and the joy of building with AI.
 
