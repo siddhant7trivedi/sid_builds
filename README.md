@@ -23,19 +23,22 @@ I use AI tools to move from **idea → prototype → working product** through p
 
 ## 🧠 Featured Builds
 
-### 🤖 Single AI Agents
+🧑‍💼 Agents for Product Management
 
-| Project | Problem | What it Does |
-|----------|----------|-------------|
-| 🔍 **[Feedback Lens](./single_ai_agents/feedback-lens/)** | Customer feedback is difficult to analyze at scale. | Converts hundreds of feedback responses into themes, sentiment insights, and actionable takeaways in seconds. |
-| 🎯 **[Resume-to-Job Match Analyzer](./single_ai_agents/resume_to_job%20matcher/)** | Candidates don't know how well they match a role until it's too late. | Scores your resume against any job description with an ATS-style breakdown — runs fully locally via Ollama. |
-| ✅ **[To-Do App](./single_ai_agents/todo_app/)** | Learning happens fastest through shipping. | A lightweight task management app built to reinforce core frontend fundamentals. |
+A growing collection of AI agents built to help Product Managers work smarter, faster, and with greater confidence. Each agent solves a specific PM challenge, forming an AI toolkit that augments every stage of the product lifecycle and enables better, faster decisions.
 
-### 🧑‍💼 Product Manager Agents
+⸻
 
-| Project | Problem | What it Does |
-|----------|----------|-------------|
-| 📄 **[PRD Generator](./product_mgr_agents/prd_generator/)** | Product ideas often stall at the blank page stage. | Generates structured Product Requirement Documents from a simple product description — runs locally via Ollama. |
+🤝 Agent Teams
+
+Multi-agent systems where specialized AI agents collaborate, delegate, review, and refine each other’s work to solve complex problems. These projects demonstrate how orchestrated AI workflows produce more reliable, scalable, and higher-quality outcomes than a single agent working alone.
+
+⸻
+
+🎲 Agents for Fun
+
+Not every AI project has to solve a business problem. This collection explores the creative side of AI through fun, witty, and experimental agents that showcase novel interactions, imaginative ideas, and the joy of building with AI.
+
 
 ---
 
@@ -43,22 +46,20 @@ I use AI tools to move from **idea → prototype → working product** through p
 
 Clone the repository:
 
-```bash
-git clone https://github.com/siddhant7trivedi/sid_builds.git
-```
+bashgit clone https://github.com/siddhant7trivedi/sid_builds.git
 
 Navigate to any project:
 
-```bash
-# Single AI agent projects
-cd sid_builds/single_ai_agents/feedback-lens
+bash# PM agents
+cd sid_builds/agents_for_prod_mgmt/prd_generator
 
-# Product manager agent projects
-cd sid_builds/product_mgr_agents/prd_generator
-```
+# Agent teams
+cd sid_builds/agent_teams/ai_news_company
+
+# Fun agents
+cd sid_builds/agents_for_fun/dream_interpreter
 
 Follow the project's README for setup instructions, dependencies, and usage.
-
 Each project is self-contained and includes its own documentation.
 
 ---
