@@ -17,7 +17,6 @@ I use AI tools to move from **idea → prototype → working product** through p
 - Start with a real problem, not a tutorial
 - Use AI as my engineering layer - prompts, prototypes, and iteration
 - Ship something working before writing a full spec
-- Iterate in public - warts and all
 
 ---
 
