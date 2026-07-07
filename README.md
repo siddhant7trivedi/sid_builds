@@ -1,12 +1,12 @@
 # 🚀 sid-builds
 
-### AI Products • GenAI Experiments • End-to-End Prototypes
-
 > **Most PMs write specs. I ship products.**
 
-Every project here started as a real problem.
+## 💭 Why This Exists
 
-I use AI tools to move from **idea → prototype → working product** through prompt design, product thinking, rapid iteration, and deployment.
+The best way to learn AI isn’t by reading about it, but by building with it.
+
+This repository captures my journey of designing AI-powered products from a Product Manager's perspective. Rather than building demos for the sake of technology, I focus on creating practical AI solutions that are useful, scalable, and grounded in real-world product thinking.
 
 **The goal isn't to learn to code. It's to learn to build and there's a difference.**
 
@@ -14,9 +14,15 @@ I use AI tools to move from **idea → prototype → working product** through p
 
 ## 🧭 How I Work
 
-- Start with a real problem, not a tutorial
-- Use AI as my engineering layer - prompts, prototypes, and iteration
-- Ship something working before writing a full spec
+- 🧩 Start with a real user problem, not an AI capability.
+
+- 💡 Think in products, not prompts.
+
+- 🤖 Use AI to accelerate research, prototyping, and execution.
+
+- 🚀 Ship early, gather feedback, and iterate relentlessly.
+
+- 📈 Measure success by user value, not model sophistication.
 
 ---
 
@@ -41,25 +47,45 @@ Not every AI project has to solve a business problem. This collection explores t
 
 ---
 
-## 🚀 Getting Started
 
-Clone the repository:
 
-bashgit clone https://github.com/siddhant7trivedi/sid_builds.git
+# 🚀 Getting Started
 
-Navigate to any project:
+### Clone the repository
 
-bash# PM agents
-cd sid_builds/agents_for_prod_mgmt/prd_generator
+```bash
 
-# Agent teams
-cd sid_builds/agent_teams/ai_news_company
+git clone https://github.com/siddhant7trivedi/sid_builds.git
 
-# Fun agents
-cd sid_builds/agents_for_fun/dream_interpreter
+cd sid_builds
 
-Follow the project's README for setup instructions, dependencies, and usage.
-Each project is self-contained and includes its own documentation.
+```
+
+### Explore a collection
+
+```bash
+
+cd agents_for_prod_mgmt
+
+```
+
+or
+
+```bash
+
+cd agent_teams
+
+```
+
+or
+
+```bash
+
+cd agents_for_fun
+
+```
+
+Open any project and follow its individual **README** for installation, setup, and usage instructions.
 
 ---
 
@@ -67,12 +93,10 @@ Each project is self-contained and includes its own documentation.
 
 Upcoming experiments:
 
-- AI Workflow Automation Tools
+- AI Agents for Product Management
 - Multi-Agent Applications
 - RAG-Based Knowledge Systems
 - Prompt Evaluation Frameworks
-- Productivity-Focused AI Products
-- Internal Tools for Product Teams
 
 ---
 
@@ -84,4 +108,4 @@ Curious about the person behind the builds?
 
 ---
 
-⭐ **If you find something interesting, consider starring the repository.**
+**⭐If this saves you time, star the repo - that's how the next person discovers it⭐**
