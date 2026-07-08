@@ -21,6 +21,10 @@ Run each agent sequentially. Each agent's output feeds the next as structured in
 Market Opportunity → Customer Discovery → Product Strategy → PRD → Solution Design → Prototyping
 ```
 
+## Outputs
+
+All agent outputs are saved to the `outputs/` directory. Each agent writes its results as a file in that folder, named after the agent (e.g. `market-opportunity.md`, `prd.md`). This makes every stage's output available as structured input for the next agent in the pipeline.
+
 ## Claude Code Sub-Agents
 
 Each agent is implemented as a Claude Code sub-agent in `.claude/agents/`. These can be invoked directly inside Claude Code using the Agent tool with the matching `subagent_type`.
