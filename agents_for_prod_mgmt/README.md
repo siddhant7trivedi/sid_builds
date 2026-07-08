@@ -23,15 +23,15 @@ Market Opportunity → Customer Discovery → Product Strategy → PRD → Solut
 
 ## Claude Code Sub-Agents
 
-Each spec has a corresponding Claude Code sub-agent in `.claude/agents/`. These can be invoked directly inside Claude Code using the Agent tool with the matching `subagent_type`.
+Each agent is implemented as a Claude Code sub-agent in `.claude/agents/`. These can be invoked directly inside Claude Code using the Agent tool with the matching `subagent_type`.
 
-| Sub-agent file | Spec |
-|---|---|
-| `.claude/agents/market-opportunity-agent.md` | [market-opportunity-agent.md](market-opportunity-agent.md) |
-| `.claude/agents/customer-discovery-agent.md` | [customer-discovery-agent.md](customer-discovery-agent.md) |
-| `.claude/agents/prod-strategy-agent.md` | [prod-strategy-agent.md](prod-strategy-agent.md) |
-| `.claude/agents/prd-agent.md` | [prd-agent.md](prd-agent.md) |
-| `.claude/agents/solution-design-agent.md` | [solution-design-agent.md](solution-design-agent.md) |
-| `.claude/agents/prototyping-agent.md` | [prototyping-agent.md](prototyping-agent.md) |
+| Sub-agent |
+|---|
+| `.claude/agents/market-opportunity-agent.md` |
+| `.claude/agents/customer-discovery-agent.md` |
+| `.claude/agents/prod-strategy-agent.md` |
+| `.claude/agents/prd-agent.md` |
+| `.claude/agents/solution-design-agent.md` |
+| `.claude/agents/prototyping-agent.md` |
 
 Each sub-agent's description is scoped to its position in the pipeline so Claude Code knows when to invoke it and which prior outputs it depends on.
