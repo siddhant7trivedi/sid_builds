@@ -28,7 +28,7 @@ This repository captures my journey of designing AI-powered products from a Prod
 
 ## 🧠 Featured Builds
 
-### 🧑‍💼 [Agents for Product Management](https://github.com/siddhant7trivedi/sid_builds/tree/main/agents_for_prod_mgmt)
+### 🧑‍💼 [Agents for Product Management](https://github.com/siddhant7trivedi/sid_builds/tree/main/product_agents)
 
 A growing collection of AI agents built to help Product Managers work smarter, faster, and with greater confidence. Each agent solves a specific PM challenge, forming an AI toolkit that augments every stage of the product lifecycle and enables better, faster decisions.
 
@@ -65,7 +65,7 @@ cd sid_builds
 
 ```bash
 
-cd agents_for_prod_mgmt
+cd product_agents
 
 ```
 
