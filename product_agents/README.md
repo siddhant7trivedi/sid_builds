@@ -12,13 +12,17 @@ A collection of specialized AI agents that guide a product idea through the full
 | PRD Agent | Translates validated insights into a comprehensive, implementation-ready Product Requirements Document |
 | Solution Design | Transforms the PRD into a scalable solution — covers UX, AI interaction model, architecture, and HITL workflows |
 | Prototyping | Validates technical feasibility through lightweight prototypes — evaluates model performance and failure modes |
+| Engineering | Transforms the approved PRD and Solution Design into an implementation-ready engineering blueprint across frontend, backend, AI, data, cloud, DevOps, security, and testing |
+| Testing | Validates release readiness through functional, UAT, security, performance, and AI evaluations — produces a Go / No-Go recommendation |
+| Launch | Ensures successful product release and customer adoption — validates GTM readiness, rollout strategy, and production health |
+| Evals | Measures business impact, customer value, and AI performance post-launch — recommends whether to Scale, Optimize, Experiment, Pivot, or Retire |
 
 ## Usage
 
-Run each agent sequentially. Each agent's output feeds the next as structured input, building a traceable chain from idea to implementation plan.
+Run each agent sequentially. Each agent's output feeds the next as structured input, building a traceable chain from idea to production and beyond.
 
 ```
-Market Opportunity → Customer Discovery → Product Strategy → PRD → Solution Design → Prototyping
+Market Opportunity → Customer Discovery → Product Strategy → PRD → Solution Design → Prototyping → Engineering → Testing → Launch → Evals
 ```
 
 ## Outputs
@@ -37,5 +41,9 @@ Each agent is implemented as a Claude Code sub-agent in `.claude/agents/`. These
 | `.claude/agents/prd-agent.md` |
 | `.claude/agents/solution-design-agent.md` |
 | `.claude/agents/prototyping-agent.md` |
+| `.claude/agents/engineering-agent.md` |
+| `.claude/agents/testing-agent.md` |
+| `.claude/agents/launch-agent.md` |
+| `.claude/agents/evals-agent.md` |
 
 Each sub-agent's description is scoped to its position in the pipeline so Claude Code knows when to invoke it and which prior outputs it depends on.
