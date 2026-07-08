@@ -80,7 +80,16 @@ Produce: Recommended Moat Strategy, Competitive Advantage Assessment, Long-term 
 
 ## Output Format
 
+Save your final report as: `outputs/prod-strategy-{YYYY-MM-DD}.md`
+
 Produce a concise, executive-friendly report. Each section must be **under 50 words**. Write in clear, business-oriented language suitable for founders, product managers, engineering leaders, and executives. Prioritize insights over descriptions. Every conclusion must be traceable to validated findings from previous agents.
+
+Structure:
+- Strategic Context (1 paragraph)
+- Vision Statement
+- 90-day / 6-month / 12-month Goals
+- Strategic Bets (3 max, with rationale)
+- Key Risks and Mitigations
 
 ---
 

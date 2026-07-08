@@ -72,7 +72,14 @@ Produce a compliance checklist, regulatory risk assessment, required certificati
 
 ## Output Format
 
+Save your final report as: `outputs/market-opportunity-{YYYY-MM-DD}.md`
+
 Produce a concise, executive-friendly report. Each section must be **under 50 words**. Write in clear, business-oriented language suitable for founders, product managers, and executives. Prioritize insights over descriptions. Every conclusion must be traceable to evidence gathered — do not introduce new assumptions.
+
+Structure:
+- Market Opportunity Score (x/10)
+- TAM / SAM / SOM with assumptions
+- Competitive Landscape (table: competitor, strengths, gaps)
 
 ---
 

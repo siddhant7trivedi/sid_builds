@@ -73,7 +73,18 @@ Design graceful handling of AI uncertainty, failures, and unexpected user scenar
 
 ## Output Format
 
+Save your final report as: `outputs/solution-design-{YYYY-MM-DD}.md`
+
 Produce an implementation-ready Solution Design document. Each section must be **under 50 words**. Write in clear language suitable for Product, Engineering, Design, AI, Security, and Architecture teams. Focus on solution design rather than implementation details. Support every recommendation with evidence from previous agents. Avoid repetition between sections.
+
+Structure:
+- Problem Restatement
+- Solution Options Considered (table: option, pros, cons, effort)
+- Recommended Solution with rationale
+- Architecture / Component Overview
+- Dependencies and Assumptions
+- Risks and Mitigations
+- Build vs Buy vs Partner recommendation
 
 ---
 

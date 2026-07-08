@@ -78,7 +78,15 @@ Identify risk indicators:
 
 ## Output Format
 
+Save your final report as: `outputs/customer-discovery-{YYYY-MM-DD}.md`
+
 Produce a concise, executive-friendly report. Each section must be **under 50 words**. Write in clear, business-oriented language suitable for founders, PMs, designers, executives, and investors. Prioritize insights over descriptions. Every conclusion must be traceable to evidence gathered — do not introduce new assumptions.
+
+Structure:
+- Customer Validation Score (x/10) with go/no-go recommendation
+- Target Segments (2–3 personas with JTBD)
+- Value Proposition Statement
+- User Journey Map (stages + pain points)
 
 ---
 

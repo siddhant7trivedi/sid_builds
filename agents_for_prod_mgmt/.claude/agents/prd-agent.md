@@ -84,7 +84,18 @@ Map every requirement to: Business Goal, Customer Pain Point, Persona, JTBD, Fea
 
 ## Output Format
 
+Save your final report as: `outputs/prd-{feature-name}-{YYYY-MM-DD}.md`
+
+
 Produce a professionally written, implementation-ready PRD. Each section must be **under 50 words**. Write in clear, business-oriented language suitable for Product, Engineering, Design, QA, AI, and Executive stakeholders. Focus on requirements rather than implementation details unless explicitly required. Ensure every requirement is measurable, testable, and traceable. Avoid repetition between sections.
+
+Structure:
+- Problem Statement
+- Goals and Success Metrics
+- User Stories (As a / I want / So that)
+- Functional Requirements
+- Non-Functional Requirements
+- Out of Scope
 
 ---
 

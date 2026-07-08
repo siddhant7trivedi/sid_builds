@@ -91,7 +91,16 @@ Define measurable thresholds that determine whether the project should proceed, 
 
 ## Output Format
 
+Save your final report as: `outputs/prototype-brief-{YYYY-MM-DD}.md`
+
 Produce a concise, evidence-based validation report. Each section must be **under 50 words**. Write in clear language suitable for Product, Engineering, AI, Architecture, and Executive stakeholders. Prioritize measurable findings over opinions. Support every recommendation with benchmark results or evaluation evidence. Avoid repetition between sections.
+
+Structure:
+- Prototype Goal and Success Criteria
+- Scope (what to test, what to exclude)
+- User Flow (steps with decision points)
+- Key Screens / Components to mock
+- Test Scenarios (3–5 with expected outcomes)
 
 ---
 
